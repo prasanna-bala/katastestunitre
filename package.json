@@ -1,0 +1,27 @@
+{
+  "name": "katas-js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "directories": {
+    "test": "npx c8 mocha"
+  },
+  "scripts": {
+    "test": "npx c8 mocha 'test/**/*.js'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prasanna-bala/katas-js.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/prasanna-bala/katas-js/issues"
+  },
+  "homepage": "https://github.com/prasanna-bala/katas-js#readme",
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "mocha": "^9.1.3"
+  }
+}
