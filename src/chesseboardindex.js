@@ -7,9 +7,9 @@ export function chessboard(len) {
     {
       str[i]="# # # #";
     } 
-    //console.log("# # # #");
+
     else  {str[i]= " # # # #"}
-    //console.log(" # # # #");
+   
   count = count+1 ;  
   console.log(str[i]);
 }

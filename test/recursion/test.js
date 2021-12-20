@@ -7,9 +7,12 @@ import {isEven} from '../../src/recursionIndex.js';
 
 describe('#isEven()', () => {
     it('Should  isEven Value is false', () => {
-        assert.isFalse(isEven(5), "false","false"); 
+        assert.isTrue(isEven(50), true,true); 
     });
    
+    it('Should  isEven Value is false', () => {
+        assert.isFalse(isEven(1), false,false); 
+    });
 });
 
 /* 
